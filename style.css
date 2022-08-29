@@ -551,4 +551,9 @@ nav ul li a:hover {
     .vh-auto {
         height: auto;
     }
+
+    .product-card {
+        width: 75vw;
+        height: 450px;
+    }
 }
