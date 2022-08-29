@@ -264,6 +264,10 @@ nav ul li a:hover {
     width: 30%;
 }
 
+.ta-center {
+    text-align: center;
+}
+
 .product {
     position: relative;
     overflow: hidden;
