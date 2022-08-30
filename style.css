@@ -411,6 +411,42 @@ nav ul li a:hover {
 }
 
 /* End Product */
+
+/* About */
+#about {
+    background-color: pink;
+}
+
+.gp-2 {
+    gap: 20px;
+}
+
+.br-20 {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.vh-40 {
+    height: 60vh;
+}
+
+/* End About */
+
+/* Footer */
+.p-3 {
+    padding: 30px;
+}
+
+footer {
+    background-color: pink;
+}
+
+footer div p a {
+    color: black;
+    text-decoration: none;
+}
+
+/* End Footer */
 /* Responsive Breakpoint */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     .container {
@@ -421,14 +457,31 @@ nav ul li a:hover {
         width: 60%;
     }
 
-    /* .vh-auto {
+    .vh-auto-about {
         height: auto;
-    } */
+    }
+
+    .mt-3 {
+        margin-top: 30px;
+    }
+
+    .flex-column-about {
+        flex-direction: column;
+
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
         padding: 0 100px;
+    }
+
+    .mt-3 {
+        margin-top: 30px;
+    }
+
+    .vh-auto-about {
+        height: auto;
     }
 
     .left {
@@ -453,6 +506,11 @@ nav ul li a:hover {
         flex-direction: column-reverse;
     }
 
+    .flex-column-about {
+        display: flex;
+        flex-direction: column;
+    }
+
     .vh-auto {
         height: auto;
     }
@@ -472,9 +530,22 @@ nav ul li a:hover {
         width: 60%;
     }
 
+    .vh-auto-about {
+        height: auto;
+    }
+
+    .mt-3 {
+        margin-top: 30px;
+    }
+
     .flex-column-reverse {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .flex-column-about {
+        display: flex;
+        flex-direction: column;
     }
 
     .vh-auto {
@@ -503,6 +574,14 @@ nav ul li a:hover {
 @media screen and (max-width: 576px) {
     .menu-toggle {
         display: flex;
+    }
+
+    .vh-auto-about {
+        height: auto;
+    }
+
+    .mt-3 {
+        margin-top: 30px;
     }
 
     nav ul {
@@ -537,6 +616,12 @@ nav ul li a:hover {
     .flex-column-reverse {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .flex-column-about {
+        display: flex;
+        flex-direction: column;
+
     }
 
     .w-50 {
